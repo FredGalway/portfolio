@@ -36,7 +36,7 @@
     0% {
         font-size: 0px;
         opacity: 0;
-        margin-left: -30px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(-25deg);
     }
@@ -47,13 +47,13 @@
     5% {
         font-size: inherit;
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 15px;
         margin-top: 0px;
     }
     20% {
         font-size: inherit;
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(0deg);
     }
@@ -66,7 +66,7 @@
     100% {
         font-size: 0px;
         opacity: 0;
-        margin-left: -30px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(0deg);
     }
@@ -76,7 +76,7 @@
     0% {
         font-size: 0px;
         opacity: 0;
-        margin-left: -30px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(0deg);
     }
@@ -87,13 +87,13 @@
     5% {
         font-size: inherit;
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 15px;
         margin-top: 0px;
     }
     30% {
         font-size: inherit;
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(0deg);
     }
@@ -106,8 +106,19 @@
     100% {
         font-size: 0px;
         opacity: 0;
-        margin-left: -30px;
+        margin-left: 15px;
         margin-top: 0px;
         transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width:900px) {
+    .dropping-texts>div {
+        text-align: center;
+    }
+    .dropping-texts>div {
+        position: absolute;
+        left: 0px;
+        margin: auto;
     }
 }
