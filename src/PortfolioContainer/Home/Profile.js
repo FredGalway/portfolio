@@ -33,7 +33,20 @@ export default function Profile() {
                                 </div>
                             </span>
                         </div>
-
+                        <div>
+                            <span className='profile-role-tagline'>
+                                Knack of building operations with front and back-end operations.
+                            </span>
+                        </div>
+                        <div className='profile-options'>
+                            <button className='btn primary-btn'>
+                                {" "}
+                                Hire me {" "}
+                            </button>
+                            <a href='resume.pdf' download='fmoitry resume.pdf'>
+                                <button className='btn highlighted-btn btn'>Get Resume</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
         </>
