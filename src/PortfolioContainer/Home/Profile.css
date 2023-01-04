@@ -1,124 +1,40 @@
-body {
-    margin: 0px;
-    text-align: center;
-    color: rgb(13, 13, 13);
-    font-weight: 100;
-    overflow: hidden;
-    animation: bg 5s linear infinite;
-}
+/* -------------------------------------- Profile css ------------------------------------ */
 
-.dropping-texts {
-    display: inline-block;
-    width: 12%;
-    height: 36px;
-    vertical-align: -2px;
-}
-
-.dropping-texts>div {
-    font-size: 0px;
-    opacity: 0;
-    margin-left: -30px;
-    position: absolute;
-    font-weight: 300;
-    box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.4);
-}
-
-.dropping-texts>div:nth-child(1) {
-    animation: roll 5s linear infinite 0s;
-}
-
-.dropping-texts>div:nth-child(2) {
-    animation: roll 5s linear infinite 1s;
-}
-
-.dropping-texts>div:nth-child(3) {
-    animation: roll 5s linear infinite 2s;
-}
-
-.dropping-texts>div:nth-child(4) {
-    animation: roll2 5s linear infinite 3s;
-}
-
-@keyframes roll {
-    0% {
-        font-size: 0px;
-        opacity: 0;
-        margin-left: -30px;
-        margin-top: 0px;
-        transform: rotate(-25deg);
-    }
-    3% {
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-    5% {
-        font-size: inherit;
-        opacity: 1;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    20% {
-        font-size: inherit;
-        opacity: 1;
-        margin-left: 0px;
-        margin-top: 0px;
-        transform: rotate(0deg);
-    }
-    27% {
-        font-size: 0px;
-        opacity: 0.5;
-        margin-left: 20px;
-        margin-top: 100px;
-    }
-    100% {
-        font-size: 0px;
-        opacity: 0;
-        margin-left: -30px;
-        margin-top: 0px;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes roll2 {
-    0% {
-        font-size: 0px;
-        opacity: 0;
-        margin-left: -30px;
-        margin-top: 0px;
-        transform: rotate(0deg);
-    }
-    3% {
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-    5% {
-        font-size: inherit;
-        opacity: 1;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    30% {
-        font-size: inherit;
-        opacity: 1;
-        margin-left: 0px;
-        margin-top: 0px;
-        transform: rotate(0deg);
-    }
-    37% {
-        font-size: 1500px;
-        opacity: 0;
-        margin-left: -1000px;
-        margin-top: -800px;
-    }
-    100% {
-        font-size: 0px;
-        opacity: 0;
-        margin-left: -30px;
-        margin-top: 0px;
-        transform: rotate(0deg);
-    }
-}
-
-.profile-role-tagline {
+#profile-role-tagline {
     font-size: 1em;
 }
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url('../../assets//Home/bg.jpg');
+    background-color: #23273a;
+    border: 1px;
+    color: white;
+}
+
+#profile-details-name {
+    font-size: 24px;
+    font-family: 'Poppins Semibold';
+}
+
+#profile-details-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+#profile-details-role h1 {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.primary-text2 {
+    color: (--green);
+}
+
+.colz {}
