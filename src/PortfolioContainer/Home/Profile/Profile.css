@@ -11,8 +11,8 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
-    background-image: url('../../assets//Home/bg.jpg');
-    background-color: #23273a;
+    background-image: url('../../../assets//Home/bg.jpg');
+    background-color: var(--dark-blue);
     border: 1px;
     color: white;
 }
@@ -73,12 +73,13 @@
     height: 380px;
     width: 380px;
     margin: 0 0 0 100px;
+    z-index: 100;
 }
 
 .profile-picture-background {
     height: 90%;
     width: 90%;
-    background-image: url('../../assets/Home/profilephoto.jpg');
+    background-image: url('../../../assets/Home/profilephoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

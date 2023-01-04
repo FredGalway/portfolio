@@ -1,0 +1,17 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+    background-image: url('../../assets/Home/bg.jpg');
+    background-position: top 100px left 300px;
+    background-size: 120%;
+}
+
+@media screen and (max-width:1024px) {
+    .home-container {
+        min-height: 650px;
+        background-position: top 500px left 300px;
+        background-size: 250%;
+    }
+}
