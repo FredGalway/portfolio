@@ -21,3 +21,10 @@
     --toast-success: #0CBFAE;
     --loader-color: #0CBFAE
 }
+
+@media screen and (max-width:400px) {
+    body {
+        overflow: hidden;
+        /* Hide scrollbars */
+    }
+}
