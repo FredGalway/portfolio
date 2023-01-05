@@ -2,6 +2,7 @@ import React from 'react';
 import './Profile.css';
 import './Motion.css';
 
+
 export default function Profile() {
     return ( 
         <>
@@ -72,12 +73,3 @@ export default function Profile() {
         
     )
 }
-
-function MyComponent() {
-    return (
-      <div style={{ width: '50%', margin: '0 auto' }}>
-        I am a centered div!
-      </div>
-    );
-  }
-  
