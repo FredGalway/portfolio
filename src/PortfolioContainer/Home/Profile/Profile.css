@@ -141,11 +141,24 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:401px) {
+    .home-container {
+        text-align: center;
+        display: inline-block;
+    }
+    .profile-container {
+        display: inline-block;
+    }
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 10px 0;
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
     .profile-picture {
         height: 320px;
         width: 320px;
-        margin: 0 !important;
+        margin: 10% 0 0 0 !important;
     }
     .profile-details-role h1 {
         font-family: Noto;
@@ -155,10 +168,6 @@
         width: 50%;
         margin: auto;
         text-align: center;
-    }
-    .profile-parent {
-        flex-direction: column-reverse;
-        margin: 40px 0 10px 0;
     }
     .profile-options {
         display: flex;
@@ -177,25 +186,32 @@
 }
 
 @media screen and (max-width:400px) {
+    .profile-container {
+        margin: 0 0px 0 -30px;
+    }
+    .profile-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 10px 0;
+        width: 80%;
+        margin: 8% auto 0 12%;
+    }
     .profile-picture {
         height: 250px;
         width: 250px;
-        margin: 0 !important;
-    }
-    .profile-parent {
-        margin-top: 0px;
-    }
-    .profile-container {
-        margin: 0 0px 0 -30px;
+        margin: auto;
     }
     .colz {
         margin: 30px 0 0 0;
     }
     .profile-details-role h1 {
-        font-size: 15px;
+        color: var(--blue-electric);
+        font-size: 50px;
+        position: relative;
+        width: 50%;
+        margin: auto;
+        text-align: center;
     }
     .profile-role-tagline {
         font-size: 15px;
-        margin: 0 25% 0 25%;
     }
 }
