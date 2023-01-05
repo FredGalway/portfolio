@@ -151,7 +151,6 @@
     }
     .profile-parent {
         flex-direction: column-reverse;
-        margin: 40px 0 10px 0;
         width: 80%;
         margin: 0 auto 0 auto;
     }
