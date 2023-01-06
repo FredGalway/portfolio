@@ -5,7 +5,7 @@ import './Motion.css';
 
 export default function Profile() {
     return ( 
-        <>
+        <div>
             <div classname='profile-container' class='profile-container'>
                 
                 <div classname='profile-parent' class='profile-parent'>
@@ -69,7 +69,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
         
     )
 }
