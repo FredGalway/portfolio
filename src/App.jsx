@@ -1,9 +1,5 @@
+import React from 'react'
 import './App.css';
-import ReactDOM from 'react-dom';
-
-import LogRocket from 'logrocket';
-LogRocket.init('0hqovk/portfolio-react-pro');
-
 import PortfolioContainer from './PortfolioContainer/PortfolioContainer';
 
 function App() {
