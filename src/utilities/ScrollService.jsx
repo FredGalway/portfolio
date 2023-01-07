@@ -123,7 +123,7 @@ export default class ScrollService {
 
       if (fullyVisible || partillyVisible) {
         if (partillyVisible && !screen.alreadyRendered) {
-          ScrollService.currentScreenFadeIn.next();
+          // ScrollService.currentScreenFadeIn.next();
           ScrollService.currentScreenFadeIn.next({
             fadeInScreen: screen.screen_name,
           });
