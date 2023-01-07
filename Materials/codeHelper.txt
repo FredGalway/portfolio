@@ -268,23 +268,3 @@ import 'react-toastify/dist/ReactToastify.css';
 
 //give heroku machine access to your g mail
  https://accounts.google.com/b/0/DisplayUnlockCaptcha
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

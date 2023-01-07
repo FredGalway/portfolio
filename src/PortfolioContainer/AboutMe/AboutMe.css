@@ -1,0 +1,121 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.about-me-parent {
+    max-width: 1000px;
+    width: 70%;
+}
+
+.about-me-card {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0 20px -2px var(--dark-blue);
+}
+
+.about-me-profile {
+    width: 50%;
+    background-image: url('../../assets/AboutMe/me.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-me-details {
+    width: 48%;
+    text-align: justify;
+    padding: 30px;
+}
+
+.about-me-description {
+    font-size: 13px;
+}
+
+.about-me-hightlights {
+    margin: 50px 0;
+}
+
+.hightlight-heading {
+    font-family: "Poppins Bold";
+    font-size: 15px;
+    margin: 0 0 15px 0;
+}
+
+.highlight {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.highlight-blob {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    background-color: var(--green);
+}
+
+.about-me-options {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+
+/* Responsive view for iPad Pro */
+
+@media screen and (max-width:1110px) {
+    .about-me-parent {
+        width: 88%;
+    }
+    .highlight {
+        font-size: 13px;
+    }
+    .highlight {
+        font-size: 13px;
+        text-align: left;
+    }
+    .about-me-options {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-me-options .btn {
+        margin: 0 0 30px 0;
+    }
+}
+
+
+/* Responsive view for other tablet */
+
+@media screen and (max-width:900px) {
+    .about-me-profile {
+        display: none;
+    }
+    .about-me-details {
+        width: 100%;
+    }
+    .about-me-options {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+
+/* Responsive view for smartphones */
+
+@media screen and (max-width:465px) {
+    .about-me-options {
+        display: block;
+    }
+    .about-me-options .highlighted-btn {
+        margin: 10px 0 0 0 !important;
+    }
+    .about-me-options .btn {
+        width: 100%;
+    }
+}
