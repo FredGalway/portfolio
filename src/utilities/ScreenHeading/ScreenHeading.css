@@ -1,0 +1,48 @@
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.screen-heading {
+    font-family: "Poppins Bold";
+    font-size: 32px;
+    color: var(--dark-blue);
+}
+
+.screen-sub-heading {
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: 8px 0 18px 0;
+    color: var(--black);
+}
+
+.heading-seperator {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin: 10px 0 0 0;
+}
+
+.seperator-line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--black);
+}
+
+.seperator-blob {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    width: max-content;
+    height: 10px;
+}
+
+.seperator-blob div {
+    width: 35px;
+    border-radius: 10px;
+    background-color: var(--green);
+}

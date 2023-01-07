@@ -6,6 +6,7 @@
     background-image: url('../../assets/Home/bg.jpg');
     background-position: top 100px left 300px;
     background-size: 120%;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width:1024px) {
